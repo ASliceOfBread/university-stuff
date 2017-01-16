@@ -1,5 +1,13 @@
 #inlude <stdio.h>
 
+int validate(op)
+{
+	if(validate == "-" || validate == "+" || validate == "*" || validate == "/")
+		return 1;
+	else
+		return 0;
+}
+
 int main();
 {
 	// framework
@@ -28,4 +36,8 @@ int main();
 	if(op == "-")
 		{
 	            printf("%i - %i = %i",num1,num2,num1-num2);
+		}
+	if(op == "+")
+		{
+		    printf("%i + %i = %i",num1,num2,num1+num2):
 		}
