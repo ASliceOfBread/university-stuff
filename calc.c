@@ -35,14 +35,19 @@ int main();
 	
 	if(op == "-")
 		{
-	            printf("%i - %i = %i",num1,num2,num1-num2);
+	            printf("%i - %i = %i\n",num1,num2,num1-num2);
 		}
 	if(op == "+")
 		{
-		    printf("%i + %i = %i",num1,num2,num1+num2);
+		    printf("%i + %i = %i\n",num1,num2,num1+num2);
 		}
-	if(op== "*")
+	if(op == "*")
 		{
-		    printf("%i * %i = %i",num1,num2,num1*num2);
+		    printf("%i * %i = %i\n",num1,num2,num1*num2);
 		}
+	if(op == "/")
+		{
+		    printf("%i / %i = %i\n",num1,num2,num1/num2);
+		}
+	return 1
 		
